@@ -1,0 +1,94 @@
+{
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "coc.preferences.rootPatterns": [".vim", ".git", ".hg", ".projections.json"],
+  "diagnostic.refreshOnInsertMode": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "json",
+    "css",
+    "scss",
+    "less",
+    "Markdown",
+    "javascript",
+    "javascript.vue",
+    "javascript.jsx"
+  ],
+  "suggest.timeout": 15000,
+
+  // Python
+  "diagnostic-languageserver.filetypes": {
+    "python": "flake8"
+  },
+  "diagnostic-languageserver.linters": {
+    "flake8": {
+      "sourceName": "flake8",
+      "command": "flake8",
+      "debounce": 200,
+      "rootPatterns": [".git", "pyproject.toml", "setup.py"],
+      "args": [
+        "--ignore=E402,C901,W503,W504,E116,E702,C0103,C0114,C0115,C0116,C0103,C0301,W0613,W0102,R0903,R0902,R0914,R0915,R0205,W0703,W0702,W0603",
+        "--format=%(row)d,%(col)d,%(code).1s,%(code)s: %(text)s",
+        "-"
+      ],
+      "offsetLine": 0,
+      "offsetColumn": 0,
+      "formatLines": 1,
+      "formatPattern": [
+        "(\\d+),(\\d+),([A-Z]),(.*)(\\r|\\n)*$",
+        {
+          "line": 1,
+          "column": 2,
+          "security": 3,
+          "message": 4
+        }
+      ],
+      "securities": {
+        "W": "info",
+        "E": "warning",
+        "F": "info",
+        "C": "info",
+        "N": "hint"
+      }
+    }
+  },
+  "diagnostic-languageserver.formatFiletypes": {
+    "python": ["black", "isort", "docformatter"]
+  },
+  "diagnostic-languageserver.formatters": {
+    "black": {
+      "command": "black",
+      "args": ["-q", "-"]
+    },
+    "isort": {
+      "command": "isort",
+      "args": ["-q", "-"]
+    },
+    "docformatter": {
+      "command": "docformatter",
+      "args": ["-"]
+    }
+  },
+
+  // html
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "html.format.maxPreserveNewLines": 2,
+  "html.format.indentInnerHtml": false,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "html.format.wrapAttributesIndentSize": 4,
+  "html.suggest.html5": true,
+  // xml
+  //"xml.format.splitAttributes": false,
+  "xml.format.splitAttributes": true,
+  "xml.format.joinContentLines": true,
+  // float config
+  "suggest.floatEnable": true,
+  "diagnostic.messageTarget": "float",
+  "signature.target": "float"
+  //"coc.preferences.hoverTarget": "float"
+  // floating window disable
+  //"suggest.floatEnable": false,
+  //"diagnostic.messageTarget": "echo",
+  //"signature.target": "echo",
+  //"coc.preferences.hoverTarget": "echo"
+}

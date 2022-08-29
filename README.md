@@ -12,4 +12,4 @@ Các bước đễ sử cài node js cho phù hợp
 
 [![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+![Game Process](https://github.com/Faizun-Faria/Thief-Robber-Landlord-Police/blob/main/Preview/gif_english.gif)

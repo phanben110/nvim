@@ -16,8 +16,7 @@ Các bước đễ sử cài node js cho phù hợp
 
 ---
 ### 🙅 No Content-Blocking vs. Content-Blocking
-https://www.youtube.com/watch?v=Sg-ucNFd_0s
-
+https://github.com/phanben110/neovim/blob/master/35C0DAAC-CDB8-4AC3-9A2A-22A2F8A8DD7F.mov
 
 ---
 ### 📐 Architecture

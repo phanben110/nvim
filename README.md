@@ -10,3 +10,4 @@ Các bước đễ sử cài node js cho phù hợp
 * https://viblo.asia/p/cai-dat-plugins-voi-vim-plug-1VgZv67mZAw
 
 
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)

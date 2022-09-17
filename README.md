@@ -27,4 +27,5 @@ sudo apt-get install neovim
  ## Step 6: vim init.vim and :PlugInstall 
  ## Step 7: Install coc and coc-python
 * :CocInstall coc-json coc-tsserver
+* :CocInstall coc-python
 * Install coc python here https://github.com/neoclide/coc-python

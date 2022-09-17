@@ -1,4 +1,7 @@
-# neovim
+# neovim 
+```bash
+ sudo apt install curl
+```
 # install nodejs here https://www.codegrepper.com/code-examples/shell/ubuntu+install+latest+node+with+nvm
 Các bước đễ sử cài node js cho phù hợp 
 + tải nvm 

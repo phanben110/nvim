@@ -14,7 +14,9 @@
  ```
  ## Step 4: Install neovim 
  ```bash
- sudo apt install neovim 
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
  ```
  ## Step 5: cd ./config/nvim and clone git neovim
  ```bash

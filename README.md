@@ -20,7 +20,7 @@
  ```bash
  cd 
  cd .config/ 
- git clone [this repos] 
+ git clone https://github.com/phanben110/nvim.git
  ```
  ## Step 6: vim init.vim and :PlugInstall 
  ## Step 7: Install coc and coc-python

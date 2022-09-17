@@ -1,16 +1,28 @@
-# neovim 
+# Install plugin neovim
+## Step 1: Install curl
 ```bash
  sudo apt install curl
+ 
 ```
-# install nodejs here https://www.codegrepper.com/code-examples/shell/ubuntu+install+latest+node+with+nvm
-Các bước đễ sử cài node js cho phù hợp 
-+ tải nvm 
-+ nvm install node v14.14.0
-+ nvm use v14.14.0
-+ nvm install node
-
+## Step 2: Install nvm 
+```bash
+ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+```
+## Step 3: Install node JS v14.14.0
+```bash 
+ nvm install v14.14.o
+ ```
+ ## Step 4: Install neovim 
+ ```bash
+ sudo apt install neovim 
+ ```
+ ## Step 5: cd ./config/nvim and clone git neovim
+ ```bash
+ cd 
+ cd .config/ 
+ git clone [this repos] 
+ ```
+ ## Step 6: vim init.vim and :PlugInstall 
+ ## Step 7: Install coc and coc-python
 * :CocInstall coc-json coc-tsserver
-* https://viblo.asia/p/cocnvim-plugin-ho-tro-goi-y-code-tuyet-voi-tren-vim-yMnKMzoNZ7P
-* https://viblo.asia/p/cai-dat-plugins-voi-vim-plug-1VgZv67mZAw
-
 * Install coc python here https://github.com/neoclide/coc-python

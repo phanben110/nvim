@@ -10,7 +10,7 @@
 ```
 ## Step 3: Install node JS v14.14.0
 ```bash 
- nvm install v14.14.o
+ nvm install v14.14.0
  ```
  ## Step 4: Install neovim 
  ```bash

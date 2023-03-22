@@ -51,7 +51,9 @@ nvim -c "CocInstall coc-python" -c "qa"
 
 echo "alias vi='nvim'" >> ~/.bashrc
 echo "alias nv='nvim'" >> ~/.bashrc
+sleep 2
 source ~/.bashrc
+
 
 echo "+++++++++++Install Neovim Sucessful++++++++"
  ```

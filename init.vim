@@ -13,7 +13,7 @@ colorscheme onedark
 "show title
 
 
-"set mouse=a
+set mouse=c
 "set mouse=a
 "source $VIMRUNTIME/mswin.vim
 
@@ -22,7 +22,7 @@ colorscheme onedark
 "vmap <LeftRelease> "*ygv
 
 " Paste with <Shift> + <Insert>
-"imap <S-Insert> <C-R>*
+imap <S-Insert> <C-R>*
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim

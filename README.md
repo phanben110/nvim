@@ -48,6 +48,7 @@ git clone https://github.com/phanben110/nvim.git
 nvim -c "PlugInstall" -c "qa"
 nvim -c "CocInstall coc-json coc-tsserver" -c "qa"
 nvim -c "CocInstall coc-python" -c "qa"
+nvim -c "CocInstall coc-clangd" -c "qa"
 
 echo "alias vi='nvim'" >> ~/.bashrc
 echo "alias nv='nvim'" >> ~/.bashrc

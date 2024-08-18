@@ -15,9 +15,17 @@
  ```
  ## Step 4: Install neovim 
  ```bash
-sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update
-sudo apt-get install neovim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+
+./nvim.appimage --appimage-extract
+./squashfs-root/AppRun --version
+
+# Optional: exposing nvim globally.
+mv squashfs-root /
+ln -s /squashfs-root/AppRun /usr/bin/nvim
+nvim
  ```
  ## Step 5: cd ./config/nvim and clone git neovim
  ```bash
@@ -40,7 +48,18 @@ source ~/.nvm/nvm.sh
 nvm install v14.14.0
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-sudo apt-get install neovim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+
+./nvim.appimage --appimage-extract
+./squashfs-root/AppRun --version
+
+# Optional: exposing nvim globally.
+mv squashfs-root /
+ln -s /squashfs-root/AppRun /usr/bin/nvim
+nvim
+
 cd
 cd ~/.config/
 git clone https://github.com/phanben110/nvim.git
